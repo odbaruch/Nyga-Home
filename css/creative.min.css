@@ -13,7 +13,8 @@ html {
 body {
     font-family: 'Rubik', 'Open Sans Condensed', sans-serif;
     background-color: #fafafa;
-    color: rgba(0, 0, 0, .87)
+    color: rgba(0, 0, 0, .87);
+    font-size: 1.2rem;
 }
 
 hr {
@@ -44,6 +45,14 @@ h4,
 h5,
 h6 {
     font-family: 'Rubik', 'Open Sans Condensed', sans-serif
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 .bg-primary {
@@ -92,7 +101,7 @@ img::-moz-selection {
     background: 0 0
 }
 
-.img-fluid {
+.img-fluid.img-fluid-header {
     max-width: 60%;
 }
 
@@ -113,7 +122,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #009688;
-    font-family: 'Rubik', 'Open Sans Condensed', sans-serif
+    font-family: 'Rubik', 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
 }
 
 #mainNav .navbar-brand:focus,
@@ -123,10 +133,10 @@ body {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    font-size: .9rem;
+    font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #004D40
+    color: #004D40;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
@@ -215,7 +225,7 @@ header.masthead p {
 
 @media (min-width:768px) {
     header.masthead p {
-        font-size: 1.15rem
+        font-size: 1.5rem
     }
 }
 
@@ -313,7 +323,8 @@ header.masthead p {
     text-transform: uppercase;
     border: none;
     border-radius: 300px;
-    font-family: 'Rubik', 'Open Sans Condensed', sans-serif
+    font-family: 'Rubik', 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
 }
 
 .btn-xl {
@@ -340,4 +351,26 @@ header.masthead p {
 .btn-light {
     color: rgba(0, 0, 0, .87);
     background-color: #fff;
+}
+
+#contact a {
+    color: #80cbc4;
+}
+
+#contactForm {
+    margin: 1rem 0rem 7rem 0rem;
+}
+
+#contactForm label {
+    float: right;
+}
+
+#contactForm .text-danger {
+    color: #fff!important;
+}
+
+#contactForm .text-danger ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
